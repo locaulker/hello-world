@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 // import logo from './logo.svg';
 import './App.css'
+import Table from './components/Table'
+// import FragmentDemo from './components/FragmentDemo'
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
@@ -14,7 +16,8 @@ import './App.css'
 // import NameList from './components/NameList'
 // import Stylesheet from './components/Stylesheet'
 // import Inline from './components/Inline'
-import Form from './components/Form'
+// import Form from './components/Form'
+// import LifecycleA from './components/LifecycleA'
 
 class App extends Component {
   render() {
@@ -39,7 +42,10 @@ class App extends Component {
         {/* <NameList /> */}
         {/* <Stylesheet primary={true} /> */}
         {/* <Inline /> */}
-        <Form />
+        {/* <Form /> */}
+        {/* <LifecycleA /> */}
+        {/* <FragmentDemo /> */}
+        <Table />
       </div>
     );
   }
